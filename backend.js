@@ -24,11 +24,11 @@ app.use(session({secret:"abc"}));
 
 
 // secção de login
-app.use('/public/acesso-restrito/*', (req, res, next) => {
+app.use('/acesso-restrito/*', (req, res, next) => {
     if( req.session.nome ){
         next();
     }else{
-        res.redirect('/public/index.html')
+        res.redirect('/index.html')
     }
       });
 

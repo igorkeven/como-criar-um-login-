@@ -6,8 +6,8 @@ body {
 /* conteiner login*/
 
 #container-login {
-   background-color: rgb(95, 156, 218);
-    width: 400px;
+   background-color: rgb(137, 179, 207); 
+    width: 400px;                                
     margin-left: auto;
     margin-right: auto;
     padding: 20px 30px;
