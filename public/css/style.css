@@ -1,0 +1,249 @@
+
+body {
+    background-color: #3d1f1f;
+}
+
+/* conteiner login*/
+
+#container-login {
+   background-color: rgb(95, 156, 218);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 5vh;
+    opacity: 0.8 ;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+/* formulario*/
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+    
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border: 2px #323232 ;
+    padding: 10px;
+    margin-bottom: 20px ;
+    box-shadow: 2px 2px 2px black;
+}
+
+input:focus {
+    border-bottom: #08558b;
+
+}
+
+#esqueceu  {
+
+    margin-bottom: 10px;
+    margin-left: 60%;
+   
+    
+}
+
+ 
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #08558b;
+    cursor: pointer;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s ;
+    
+}
+
+
+input[type="submit"]:hover {
+    background-color: #011420;
+    transition: .5s;
+    box-shadow: 0 0 5px #011420,
+    0 0 25px #011420,
+    0 0 50px #011420,
+    0 0 100px #011420;
+
+}
+
+input#nomes , input#senha {
+    border-radius: 10px;
+}
+
+div#registro p {
+margin-bottom: 10px;
+text-align: center;
+margin-right: 17% ;
+margin-left: 3%;
+
+
+}
+
+div#registro a {
+font-size: 20px;
+}
+
+div#registro a:hover {
+      
+    font-size: 22.5px;
+    transition: 1s;
+    border-radius: 20px;
+   
+    background-color: transparent;
+    box-shadow: 0 0 5px #08558b,
+    0 0 25px #08558b,
+    0 0 50px #08558b,
+    0 0 100px #08558b;
+   
+}
+
+
+button#btn-login {
+    position: relative;
+    display: inline-block;
+    padding: 10px 100px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #08558b;
+    opacity: .7;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0) ;
+   
+    
+    
+    
+
+}
+
+button#btn-login:hover {
+    background: #fff;
+    color: #08558b;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(193, 192, 209),
+                0 0 25px rgb(110, 109, 150),
+                0 0 50px rgb(47, 37, 105),
+                0 0 100px rgb(39, 3, 167);
+
+} 
+
+button#btn-login span {
+    position: absolute;
+    display: block;
+}
+
+button#btn-login span:nth-child(1) {
+top: 0;
+left: -100%;
+width: 100%;
+height: 3px;
+background: linear-gradient(90deg, transparent,#fff);
+animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+0% {
+    left: -100%;
+}
+50%, 100% {
+    left: 100%;
+}
+}
+
+button#btn-login span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,#fff);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s ;
+    }
+    
+    @keyframes btn-anim2 {
+    0% {
+        top: -100%;
+    }
+    50%, 100% {
+        top: 100%;
+    }
+    }
+
+    button#btn-login span:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(270deg, transparent, #fff);
+        animation: btn-anim3 1s linear infinite;
+        animation-delay: .5s ;
+        }
+        
+        @keyframes btn-anim3 {
+        0% {
+            right: -100%;
+        }
+        50%, 100% {
+            right: 100%;
+        }
+        }
+
+        button#btn-login span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 3px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent,#fff);
+            animation: btn-anim4 1s linear infinite;
+            animation-delay: .75s ;
+            }
+            
+            @keyframes btn-anim4 {
+            0% {
+                bottom: -100%;
+            }
+            50%, 100% {
+                bottom: 100%;
+            }
+            }
+
+             div.liberacao #recado{
+               
+              
+                
+                text-align: left;
+                color: rgb(119, 34, 34);
+                
+            
+            
+            } 
